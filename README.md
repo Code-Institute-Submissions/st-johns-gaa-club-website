@@ -1,45 +1,66 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Milestone Project One - St Johns Gaa Club
+###   Code Institute - Full Stack Development Course - User Centric Frontend - Conor Greene 
 
-Welcome USER_NAME,
+This is a project completed by Conor Greene as part of my participation in the Full Stack Development course with Code Institute.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+I will be illustrating my knowledge gathered from partaking in the first three modules of this course. The languages I will be focusing on are HTML and CSS. 
 
-## Gitpod Reminders
+I will be building a website for my local GAA club. The club is called St John’s GAA. The goal of this website is to offer informative content about St. John’s GAA club.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX
 
-`python3 -m http.server`
+**Strategy**
 
-A blue button should appear to click: *Make Public*,
+The main goal of this website for current club members and potential club members is to:
 
-Another blue button should appear to click: *Open Browser*.
+- Provide information about the GAA club.
+- Show the location of the GAA club.
+- Offer an opportunity to contact a member of the GAA club.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+The goal of the website for the club committee is to:
 
-Another blue button should appear to click: *Open Browser*.
+- Offer an online medium to inform the public about the GAA club.
+- Increase the number of people joining the GAA club within the community.
+- Creating an online platform that acts as a point of contact for the GAA club.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+**Scope**
 
-## Updates Since The Instructional Video
+The scope is to try to attract new members to the St John’s GAA club but also update current members of the GAA club. Subsequently, the 4 keys pieces of information that I would like to communicate are as follows;
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- News about St Johns GAA Club
+- Information about St Johns GAA Club
+- An opportunity to contact a club representative
+- Learn about the location of St Johns GAA Club
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+**User Stories**
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+1. As a potential user (and returning user), I want to check for news about St John’s GAA Club.
+2. As a potential member, I want to check the location of St John’s GAA Club as I have never been there before and want to know where it is located.
+3. As a potential member, I want to learn about the club and it’s history before deciding to join.
+4. As a potential member and returning member I want to see if St John’s GAA Club has social media presence so I can see what other people on Facebook are saying about them.
+5. As a potential member or returning member I want to be able to visit St John’s Gaa Club on my mobile device as I do not own a laptop or desktop. I expect it to work on mobile.
+6. As a potential customer I want to see images of members of St John’s GAA Club.
+7. As a potential customer I want to be able to contact St John’s GAA Club if the website does not answer all my questions. I want to see a contact form so I can submit information.
+8. As the club chairman, I want to have a good online presence that entices users to join our GAA club. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+**Skeleton/Wireframes**
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+I used Figma to draft my wireframes. Figma is a platform I have experience using so I opted to use it over Balsamiq. I expect the wireframing process will aid me throughout the execution stage.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Home page:
+- [Mobile](https://drive.google.com/file/d/1GErRvr3la98uSDhkNpuqt_o46WEOVM5E/view?usp=sharing)
+- [Desktop](https://drive.google.com/file/d/1FeCT4L_OaiayGsrl4gIAVrWCxk3N0eHi/view?usp=sharing)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+About Us Page
+- [Mobile](https://drive.google.com/file/d/14E8umh0pFEhXzF8uEg5rd4_mPFa1q_jH/view?usp=sharing)
+- [Desktop](https://drive.google.com/file/d/1BjNhEeejO2JMlGbtYV3WoLnFPZv-Om_A/view?usp=sharing)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
+**Surface**
 
-Happy coding!
+I took inspiration from the St Johns GAA Club colors when planning the colour scheme. The primary color being a sky blue and the secondary color being navy. These colours are familiar with club members that will be visiting the page and blue also creates a sense of trust among users. 
+
+I used fontpair.co as inspiration when defining typography. Final research was complete on Google Fonts and I decided to combine the Roboto and Domine font families. The sans-serif font of Roboto was used in the body and the serif font of Domine was used within the heading structure. 
+
+When designing the website I utilised a mobile first approach.
