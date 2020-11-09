@@ -1,3 +1,57 @@
-p {
-    color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0px;
+    border: 0;
 }
+
+/* THIS IS RELATED TO THE MENU */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #A2A2A1FF;
+}
+
+h2 {
+    font-family: 'Domine', serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: grey;
+}
+
+#logo { 
+    float: left;
+    font-size: 280%;
+}
+
+#menu {
+    font-family: 'Domine', serif;
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+}
+
+#logo, #menu{
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #195190FF;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid  #195190FF
+}
+
+.active { 
+    border-bottom: 1px solid  #195190FF; 
+}
+
+/* THE ABOVE IS RELATED TO THE MENU */
