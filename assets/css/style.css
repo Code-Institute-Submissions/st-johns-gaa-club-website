@@ -12,6 +12,25 @@ body {
     color: #195190FF;
 }
 
+
+h1 {
+  font-family: 'Domine', serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-bottom: 5px;
+  position: relative;
+}
+h1:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1px solid white;
+}
+
 h2 {
     font-family: 'Domine', serif;
     text-transform: uppercase;
@@ -21,7 +40,8 @@ h2 {
 
 #logo { 
     float: left;
-    font-size: 280%;
+    padding-left: 5%;
+    font-size: 220%;
 }
 
 #menu {
@@ -42,6 +62,7 @@ h2 {
 
 #menu a {
     text-decoration: none;
+    text-transform: uppercase;
     color: #195190FF;
 }
 
@@ -86,7 +107,7 @@ h2 {
 }
 
 #cover-text {
-    font-size: 130%;
+    font-size: 150%;
     font-family: 'Domine', serif;
     text-transform: uppercase;
     text-align: center;
@@ -115,9 +136,15 @@ h2 {
     color: white;
 }
 
+#aboutsectionstyle p {
+    margin-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 /* THE BELOW IS RELATED TO THE BUTTON IN THE ABOUT SECTION */
 
-.contact-us-button {
+.button {
   margin-top: 20px;
   border-radius: 2px;
   padding: 15px 32px 15px 32px;
@@ -127,12 +154,12 @@ h2 {
   color: #fafafa;
 }
 
-.contact-us-button:hover {
+.button:hover {
   background-color: #fafafa;
   color: rgba(0, 102, 204, .5);
 }
 
-/* THE BELOW IS RELATED TO THE BUTTON IN THE PRINCIPLES SECTION */
+/* THE BELOW IS RELATED TO THE PRINCIPLES SECTION */
 
 .column-wrapper {
     width: 90%;
@@ -153,8 +180,29 @@ h2 {
     width: 35%;
     height: 300px;
     padding: 20px 2.5%;
-    margin-top: 20px;
+    margin-top: 5%;
     text-align: center;
+}
+
+.sidebar-col h1 {
+    color: #195190FF;
+    font-family: 'Domine', serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.sidebar-col h1:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1px solid #195190FF;
 }
 
 
@@ -169,3 +217,70 @@ h2 {
 }
 
 /* THE BELOW IS RELATED TO THE CONTACT US SECTION */
+
+.form-section {
+    clear: left;
+    background: #195190FF;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.signup-form {
+  margin-top: 100px;
+  color: #fff;
+  background-color: rgba(60, 60, 60, 0.6);
+  max-width: 400px;
+  position: absolute;
+  left: 10%;
+  padding: 30px;
+}
+
+.signup-form > h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0px 20px 0px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #195190FF;
+}
+
+.textarea {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 50px;
+    margin: 5px 0px 20px 0px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.textarea:hover {
+    border-color: #195190FF;
+}
+
+.join-button {
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  font-size: 100%;
+  background-color: #f16c6b;
+  color: #fafafa;
+  display: block;
+}
+
+.join-button:hover {
+  background-color: #fafafa;
+  color: #f16c6b;
+}
