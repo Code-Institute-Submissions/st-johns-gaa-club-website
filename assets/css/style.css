@@ -102,7 +102,7 @@ h2 {
     }
 }
 
-#cover-text, cover-text h2 {
+#cover-text, cover-text h3 {
     color: #ffffff;
 }
 
@@ -112,6 +112,7 @@ h2 {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 4px;
+    vertical-align: middle;
 
     width: 300px;
     height: 200px;
@@ -252,7 +253,7 @@ h2 {
 }
 
 .text-input:hover {
-    border-color: #195190FF;
+    border-color: grey;
 }
 
 .textarea {
@@ -266,7 +267,7 @@ h2 {
 }
 
 .textarea:hover {
-    border-color: #195190FF;
+    border-color: grey;
 }
 
 .join-button {
@@ -321,3 +322,18 @@ footer {
 .social li a i:hover {
     color: grey;
 }
+
+/* THE BELOW IS RELATED TO MOBILE RESPONSIVENESS */
+
+@media screen and (max-width:943px){
+  #menu{
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+
+  #cover-text{
+    left: 0px;
+  }
