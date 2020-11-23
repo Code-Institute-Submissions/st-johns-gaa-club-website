@@ -14,12 +14,12 @@ body {
 
 
 h1 {
-  font-family: 'Domine', serif;
-  font-weight: 300;
-  text-transform: uppercase;
-  display: inline-block;
-  padding-bottom: 5px;
-  position: relative;
+    font-family: 'Domine', serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
 }
 h1:before{
     content: "";
@@ -46,9 +46,10 @@ h2 {
 
 #menu {
     font-family: 'Domine', serif;
-    font-size: 110%;
+    font-size: 100%;
     list-style-type: none;
     letter-spacing: 4px;
+    float: right;
 }
 
 #logo, #menu{
@@ -56,7 +57,7 @@ h2 {
 }
 
 #menu li {
-    float: right;
+    display: inline;
     margin-right: 30px;
 }
 
@@ -145,19 +146,22 @@ h2 {
 
 /* THE BELOW IS RELATED TO THE BUTTON IN THE ABOUT SECTION */
 
-.button {
-  margin-top: 20px;
-  border-radius: 2px;
-  padding: 15px 32px 15px 32px;
-  text-align: center;
-  font-size: 100%;
-  background-color: rgba(0, 102, 204, .5);
-  color: #fafafa;
+.link-structure{
+    margin-top: 5%;
 }
 
-.button:hover {
-  background-color: #fafafa;
-  color: rgba(0, 102, 204, .5);
+.link-styling {
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: rgba(0, 102, 204, .5);
+    color: #fafafa;
+}
+
+.link-styling:hover {
+    background-color: #fafafa;
+    color: rgba(0, 102, 204, .5);
 }
 
 /* THE BELOW IS RELATED TO THE PRINCIPLES SECTION */
@@ -167,7 +171,7 @@ h2 {
     margin: 0 auto;
 }
 .main-col {
-    background: url(https://lh3.googleusercontent.com/proxy/Lp9_lUEeExve5XYBph41GByG44IXIiyK6k4l5fbvaQ9IxfX2oROQXKOOcx8xdfgkRDH-zVLRMHJq0YpNHZ_CsVbi0eYkTMvuH9-B-31QnmQZAn0TclJEk6c73j07sf74HXrVP0mdm-4z5q4lrwm9) no-repeat center center;
+    background: url(https://i.imgur.com/Gph7lK1.png) no-repeat center center;
     background-size: contain;
     float: left;
     width: 55%;
@@ -228,18 +232,19 @@ h2 {
 }
 
 .signup-form {
-  margin-top: 100px;
-  color: #fff;
-  background-color: rgba(60, 60, 60, 0.6);
-  max-width: 400px;
-  position: absolute;
-  left: 10%;
-  padding: 30px;
+    margin-top: 100px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    padding: 30px;
+    left: 10%;
+    right: 10%
 }
 
 .signup-form > h2 {
-  color: #fafafa;
-  margin-bottom: 20px;
+    color: #fafafa;
+    margin-bottom: 20px;
 }
 
 .text-input {
@@ -270,20 +275,20 @@ h2 {
     border-color: grey;
 }
 
-.join-button {
-  margin-top: 20px;
-  border-radius: 2px;
-  padding: 15px 32px 15px 32px;
-  text-align: center;
-  font-size: 100%;
-  background-color: #195190FF;
-  color: #fafafa;
-  display: block;
+.submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #195190FF;
+    color: #fafafa;
+    display: block;
 }
 
-.join-button:hover {
-  background-color: #fafafa;
-  color: #195190FF;
+.submit-button:hover {
+    background-color: #fafafa;
+    color: #195190FF;
 }
 
 /* THE BELOW IS RELATED TO THE FOOTER */
@@ -305,18 +310,18 @@ footer {
 }
 
 .social {
-  text-align: center;
+    
 }
 
 .social li {
-  display: inline;
-}
+    display: inline;
+    }
 
 .social i {
-  font-size: 160%;
-  margin: 1%;
-  padding: 2.5%;
-  color: #195190FF;
+    font-size: 160%;
+    margin: 1%;
+    padding: 2.5%;
+    color: #195190FF;
 }
 
 .social li a i:hover {
@@ -326,14 +331,15 @@ footer {
 /* THE BELOW IS RELATED TO MOBILE RESPONSIVENESS */
 
 @media screen and (max-width:943px){
-  #menu{
+#menu{
     clear: left;
     float: left;
     margin-left: 30px;
     margin-bottom: 20px;
     line-height: 25px;
-  }
+}
 
-  #cover-text{
+#cover-text{
     left: 0px;
-  }
+}
+}
